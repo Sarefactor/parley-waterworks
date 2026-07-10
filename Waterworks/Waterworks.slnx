@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Application/Application.csproj" />
+  <Project Path="WaterworksApi/WaterworksApi.csproj" />
+  <Project Path="WaterworksConsole/WaterworksConsole.csproj" />
+</Solution>
