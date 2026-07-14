@@ -51,7 +51,7 @@ public class CatFactsNode : ParleyNode<ParleyLink>
                                        IWorkflowContext context,
                                        CancellationToken cancellationToken)
     {
-        var payload = await response.Content.ReadAsStringAsync();
+        var payload = await response.Content.ReadAsStringAsync(cancellationToken);
         var root = JsonNode.Parse(payload);
 
         try
