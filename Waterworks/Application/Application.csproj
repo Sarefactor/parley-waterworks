@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Parley" Version="0.0.4-beta" />
+    <PackageReference Include="Parley" Version="0.0.1-alpha" />
   </ItemGroup>
 
 </Project>
